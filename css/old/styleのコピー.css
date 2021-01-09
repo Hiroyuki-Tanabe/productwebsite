@@ -1,0 +1,161 @@
+body {
+    /* display:none; */
+}
+
+#main {
+    background-color:darkgray;
+}
+
+ul {
+    background-color: #000080;
+    height: 50px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    /* border: solid 2px red; */
+}
+
+/* テスト */
+li {
+    color: cornsilk;
+    border: solid 2px red;
+    height: 50px;
+    align-items: center;
+    
+}
+
+/*グリッド設定*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5,19vw);
+    gap: 10px;
+    margin: 10px;
+    height: 500px;
+}
+
+.grid {
+    background-color: #000080;
+    height: 300px;
+    width: 18vw;
+    /* margin: 10px; */
+}
+
+#brand {
+    font-size: 18px;
+    width: 20vw;
+    font-weight: bold;
+    padding: 3%;
+}
+
+nav {
+    width: 30vw;
+    /* padding:0px 30px */
+}
+
+
+/*フォーム全体*/
+#form1{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    margin-left: 10%;
+    /* border: solid 2px white; */
+    }
+/*検索ボックス*/
+#sbox{
+    margin: 5px;
+    width: 80%;
+    
+    /* padding:0 10px; */
+    border-radius:2px 0 0 2px;/*検索ボックスの角を丸める*/		
+    background:#eee;/*検索ボックスの背景カラー*/
+    font-size: 18px;		
+}
+/*検索ボタン*/
+#sbtn{
+    margin: 5px;
+    width:80px;
+
+border-radius:0 2px 2px 0;/*検索ボタンの角を丸める*/ 
+background:#7fbfff;/*検索ボタンの背景カラー*/ 
+border:none;/*検索ボタンの枠線を消す*/ 
+color:#fff;/*検索ボタンのテキストカラー*/ 
+font-weight:bold;/*検索ボタンのテキスト太字*/ 
+font-size:16px;/*検索ボタンのフォントサイズ*/ 
+}
+/*検索ボタンマウスオーバー時*/
+#sbtn:hover{
+color:#666;/*検索ボタンマウスオーバー時のフォントカラー*/ 
+}
+
+a {
+    color: white;
+    text-decoration:none;
+    margin: 0px 5px;
+    width: 100%;
+}
+
+#product {
+    background-color:white;
+
+    /* display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    align-items: center; */
+    height: 300px;
+    width: 250px;
+    margin: 5px;
+
+    /* display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px; */
+}
+
+.upfile, .image {
+    height:200px;
+    width: 250px;
+}
+
+#content {
+    height:100px;
+
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    flex-flow: column;
+    /* border:2px #ccc solid; */
+    /* height:300px; */
+    /* margin:0 0 1em; */
+
+    -ms-flex-pack:distribute;
+    justify-content:space-around;
+}
+
+#name {
+    font-size: 24px;
+    /* font-size: 30px; */
+    color:#007185;
+    font-weight: bold;
+}
+
+#price {
+    font-size: 24px;
+    color: red;
+}
+
+#size {
+    font-size: 16px;
+    color:gray;
+}
+
+/*デザイン設定*/
+  /* .grid-container > li {
+    height: 100px;
+    padding: 5px;
+    background-color: coral;
+  } */
+  
